@@ -8,8 +8,8 @@ num_sum = 0
 for i in range(1, 101):
     num_sum += i
 
-    # 만약 num_sum가 입력값 N 보다 크다면 순회를 중단 하고 마지막에 더해진 수 출력g
+    # 만약 num_sum가 입력값 N 보다 같더나 그다면 순회를 중단 하고 마지막에 더해진 수 출력g
     # 더 이상 순회할 필요 없음으로 break
-    if num_sum > N:
+    if num_sum >= N:
         print(i)
         break
