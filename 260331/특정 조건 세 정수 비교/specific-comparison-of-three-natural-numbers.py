@@ -7,7 +7,7 @@ if a <= min(a, b, c):
 else:
     print(0, end=' ')
 
-if a == b === c:
+if a == b == c:
     print(1)
 else:
     print(0)
