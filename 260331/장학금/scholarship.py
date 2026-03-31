@@ -6,3 +6,7 @@ if A >= 90:
         print(100000)
     elif B >= 90:
         print(50000)
+    else:
+        print(0)
+else:
+    print(0)
